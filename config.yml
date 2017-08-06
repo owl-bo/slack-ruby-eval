@@ -1,0 +1,6 @@
+slack:
+  token: <%= ENV['SLACK_TOKEN'] %>
+  max_message_length: 1000
+  api_url:
+    post_message: https://slack.com/api/chat.postMessage
+    realtime_start: https://slack.com/api/rtm.start
